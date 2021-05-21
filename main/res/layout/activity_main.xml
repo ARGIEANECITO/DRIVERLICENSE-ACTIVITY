@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+
+
+    android:background="@drawable/_621522792036"
+    android:gravity="center|top"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="113dp"
+        android:layout_height="wrap_content"
+        android:text="FORM"
+        android:textColor="#F1EEEE"
+        android:textSize="34sp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LAST NAME,FIRST NAME ,MDDLE NAME"
+        android:textColor="#F1EEEE"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/txtname"
+        android:layout_width="315dp"
+        android:layout_height="wrap_content"
+        android:background="#EFEAEA"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textColor="#F1EEEE"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NATIONALITY"
+        android:textColor="#F1EEEE"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/txtnational"
+        android:layout_width="318dp"
+        android:layout_height="wrap_content"
+        android:background="#EFEAEA"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textColor="#F1EEEE"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="GENDER"
+        android:textColor="#F1EEEE"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/txtgender"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:background="#EFEAEA"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textColor="#F1EEEE"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DATE OF BIRTH:"
+        android:textColor="#F1EEEE"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/txtdob"
+        android:layout_width="326dp"
+        android:layout_height="wrap_content"
+        android:background="#EFEAEA"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textColor="#F1EEEE"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="WEIGHT"
+        android:textColor="#EFE8E8"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/txtweight"
+        android:layout_width="331dp"
+        android:layout_height="wrap_content"
+        android:background="#F1E6E6"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="HEIGHT"
+        android:textColor="#EFE8E8"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/txtheight"
+        android:layout_width="331dp"
+        android:layout_height="wrap_content"
+        android:background="#F1E6E6"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ADDRESS"
+        android:textColor="#EFE8E8"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/txtaddress"
+        android:layout_width="329dp"
+        android:layout_height="wrap_content"
+        android:background="#F1E6E6"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BLOOD TYPE"
+        android:textColor="#EFE8E8"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/txtblood"
+        android:layout_width="335dp"
+        android:layout_height="wrap_content"
+        android:background="#F1E6E6"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CONDITIONS"
+        android:textColor="#EFE8E8"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/txtcondition"
+        android:layout_width="343dp"
+        android:layout_height="wrap_content"
+        android:background="#F1E6E6"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="273dp"
+        android:layout_height="37dp"
+        android:text="SUBMIT"
+        app:backgroundTint="#454040" />
+
+</LinearLayout>
